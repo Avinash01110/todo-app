@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Task Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and interactive task management application built with **React**, **Redux**, and **Tailwind CSS**. This application allows users to manage their daily tasks effectively, mark tasks as completed, set tasks as important, and view detailed information about each task.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Task List View**:
+  - Displays tasks in a list or grid view.
+  - Tasks are categorized into active and completed sections.
+  - Toggle task importance with a star icon.
+  
+- **Task Detail View**:
+  - Displays detailed information about a selected task.
+  - Includes options to mark as completed, add notes, or set reminders.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Dynamic Filters**:
+  - Filter tasks by categories like "Today", "Important", "Planned", and "Assigned."
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Dark Mode Support**:
+  - Seamless dark mode for better usability in low-light conditions.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+![Screenshot 2025-01-16 222147](https://github.com/user-attachments/assets/92b4f898-8e5a-486a-87b8-d1eae520d5d8)
+![Screenshot 2025-01-16 223034](https://github.com/user-attachments/assets/ff010fdc-1b81-438c-9d32-20d111bfd05f)
+![Screenshot 2025-01-16 223126](https://github.com/user-attachments/assets/475ad786-0068-4949-ba3d-988968a3a48d)
+![Screenshot 2025-01-16 222250](https://github.com/user-attachments/assets/5355b86d-033f-460c-bda4-c94f7b0c1b5d)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js (v16+ recommended)
+- npm or yarn package manager
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/task-management-app.git
+   cd task-management-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
+   ```bash
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Open your browser and navigate to:
+   ```bash
+   http://localhost:3000
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How to Use
+Add Tasks: Use the task input to add new tasks to your list.
+Mark as Completed: Click the checkbox to mark a task as completed.
+Mark as Important: Click the star icon to mark a task as important.
+View Details: Click on any task to open the Task Detail view.
+Technologies Used
+React: For building the user interface.
+Redux: For state management.
+Tailwind CSS: For styling.
+Lucide Icons: For beautiful and customizable icons.
